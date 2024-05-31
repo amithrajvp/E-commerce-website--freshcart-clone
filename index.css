@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+h2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    
+    
+}
+header {
+    border-bottom: 1px solid rgb(194, 193, 193);
+}
+span {
+    font-size: small;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+.headertop {
+    background-color: rgb(225, 223, 223);
+    height: 30px;
+}
+.container {
+    width: 100%;
+   max-width: 1320px;
+   margin-left: auto;
+   margin-right: auto
+   
+}
+.headertop .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px ;
+}
+.right-headertop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+#language {
+    width: 15px;
+    height: 12px;
+}
+.headersecond .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    
+}
+#freshkart {
+    width: 30px;
+    background-color: #0aad0a;
+    border-radius: 15px;
+}
+.navtag ul, li, a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+
+    gap: 10px;
+}
+.logos {
+    display: flex;
+    gap: 10px;
+}
+.searchbar {
+    display: flex;
+    flex-direction: row;
+}
+/* The navigation menu */
+.navbar {
+    margin-top: 1rem;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    
+  }
+  
+  /* Navigation links */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: rgb(10, 9, 9);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+    
+  }
+  #active {
+    background-color: #0aad0a;
+    color: white;
+    border-radius: 10px;
+    gap: 5px;
+  }
+  /* The subnavigation menu */
+  .subnav {
+    float: left;
+    overflow: hidden;
+    
+  }
+  
+  /* Subnav button */
+  .subnav .subnavbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: rgb(14, 12, 12);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /* Add a red background color to navigation links on hover */
+ .subnavbtn:hover {
+    color: #0be26f;
+  }
+  
+  /* Style the subnav content - positioned absolute */
+  .subnav-content {
+    display: none;
+    position: absolute;
+    max-width: 100px;
+    background-color: #f4f8f6;
+    
+    z-index: 1;
+  }
+  
+  /* Style the subnav links */
+  .subnav-content a {
+    float: left;
+    color: rgb(10, 9, 9);
+    text-decoration: none;
+    
+  }
+  
+  /* Add a grey background color on hover */
+  .subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+  }
+  #active {
+    height: 2.8rem;
+  }
+  
+  /* When you move the mouse over the subnav container, open the subnav content */
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+  #location {
+    background: transparent;
+    border-color: rgb(169, 166, 166);
+    
+  }
+  .menubotton {
+    background-color: transparent;
+    border: none;
+    color: #0be26f;
+  }
+  #searchbox {
+    
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+   
+  .searching {
+    border: 1px solid rgb(183, 181, 181);
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+  }
+  .headersecondright {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 65px;
+  }
+  .locationbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid rgb(203, 201, 201);
+    margin-left: 10px;
+    border-radius: 10px;
+  }
+  #location {
+    width: 120px;
+    border: none;
+  }
+  .mainsection .container img {
+    margin-top: 2rem;
+    width: 1350px;
+    border-radius: 0.5rem;
+    height: 100%;
+    position: relative;
+  }
+    main-image1 {
+    position: relative;
+  
+  }
+  div .main-image-title {
+    
+    position: absolute;
+    top: 350px;
+    left: 200px;
+    right: 1000px;
+    width: 450px;
+    height: 250px;
+    
+    
+ }
+ .Discount {
+    background-color: rgb(251, 198, 23);
+    border-radius: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    line-height: 3rem;
+    font-size: 10px;
+    font-weight: 600;
+    height: 20px;
+
+    
+ }
+ .headline {
+    font-size: 50px;
+    line-height: 3.6rem;
+ }
+ .lead {
+    line-height: 1.6rem;
+    padding-top: .5rem;
+    padding-bottom: 1rem;
+    font-weight: 600;
+    color: rgb(122, 122, 122);
+ }
+ .primary-button {
+    background-color: #001e2b;
+    
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  display: flex;
+  width: 145px;
+ }
